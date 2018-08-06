@@ -2,10 +2,10 @@ function varargout = ptable(varargin)
 %PTABLE(Z,A) Determines mass of given atom using semi-empirical formula
 %   Z = #protons, A = #nucleons
 %
-%   0 args: plots mass, binding energy v. atomic number
-%   1 args, Z: returns atomic mass & struct of atomic information
-%   2 args, Z and A: returns the mass of isotope & whether it is stable
-%   2 args, Z and field name: returns atomic mass & value of field name
+%   0 args:                   plots mass, binding energy v. atomic number
+%   1 args, Z:                returns atomic mass & struct of atomic information
+%   2 args, Z & A:            returns the mass of isotope & whether it is stable
+%   2 args, Z & field name:   returns atomic mass & value of field name
 
 ptabledata = readtable('periodictabledata1.csv');
 
